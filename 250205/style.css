@@ -1,0 +1,72 @@
+/*header bölümü*/
+header{
+    background-color: #222;
+    color: #ccc;
+    border-bottom: solid 3px red;
+}
+
+#ust-menu a, #dil-menu a, #ana-menu a, #alt-menu a, #alt-ıcon a{
+    text-decoration: none;/*linklerin altındaki çizgiyi kaldırır*/
+    color: #ccc;
+    padding: 10px;/*linklerin yanyana boşluk verır*/
+    display: block;
+    transition: 0.5s;
+}
+
+#ana-menu a:hover{
+    background-color: #d63031;
+    color:aliceblue;
+    transition: 0.5s;
+}
+
+/*main bölümü*/
+main{
+    background-color: gray;
+}
+
+
+/*footer bölümü*/
+footer{
+    background-color: #222;
+     color: #ccc;
+     margin-top: 20px;
+}
+
+.card img{
+    width: 100%;
+}
+.card{
+    background-color: #222;
+    padding: 10px;
+    color: #ccc;
+}
+.tur{
+    background-color: red;
+    padding: 5px;
+    
+}
+
+.yer{
+   
+    padding-top: 20px;
+}
+.detay{
+   padding-top: 20px;
+}
+
+main{
+    background-color: #ccc;
+   padding-bottom: 20px;
+}
+.card{
+    margin: 5px;
+    min-height: 100%;
+
+}
+#soz {
+    background-color: red;
+    border: solid 5px #ccc;
+    margin: 10px 0;
+    padding: 20px;
+    text-align: center;
+}
